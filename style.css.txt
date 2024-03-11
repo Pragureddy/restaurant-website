@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+    color: #333;
+}
+header {
+    background-color: #46812a;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #5f1db6;
+    padding: 0.5rem 0;
+}
+nav li {
+    margin-right: 20px;
+}
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+nav a:hover {
+    color: #ff6600;
+}
+.search {
+    text-align: center;
+    margin-top: 2rem;
+    background-color: rgb(247, 233, 233);
+}
+.search h2 {
+    font-size: 24px;
+    margin-bottom: 1rem;
+    background-color: rgb(188, 46, 46);
+}
+.search form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+.search input[type="text"] {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.search button {
+    background-color: #6600ff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+.search button:hover {
+    background-color: #ac0c72;
+}
+.job-listings {
+    margin:30px auto;
+    background-color:white;
+}
+.job-listings h2 {
+    font-size: 24px;
+    margin-bottom: 1rem;
+    text-align: center;
+    background-color: aqua;
+}
+.job-listings ul {
+    list-style: none;
+}
+.job-listings li {
+    background-color: #fff;
+    border: 1px solid #b2acac;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.job-listings h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.job-listings p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.job-listings a {
+    background-color: #1b0963;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+.job-listings a:hover {
+    background-color: #6c0953;
+}
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding:10px;
+}

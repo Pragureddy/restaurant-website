@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+<title>
+    Job Search Portal 
+</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+<header>
+    <h1 class=" fst-italic fw-bolder text-white fs-1">Job Search Portal</h1>
+</header>
+<nav>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#jobsearch">Jobs</a></li>
+        <li><a href="#companies">Companies</a></li>
+        <li><a href="#Contact">Contact Us</a></li>
+    </ul>
+</nav>
+
+<div id="home">
+    <h4 class="bg-success fst-italic fw-bold text-warning p-1">ABOUT US</h4>
+    <p class="text-primary fst-italic fw-bold">THIS IS THE BEST JOB PORTAL FOR FRESHERS AND EXPERIANCE STUDENTS... THE BEST COMPANIES FOR STUDENTS.WE ARE POSTING APPLY AND GET JOB IN UR DREAM COMPANIES WHY LATE....</p>
+</div>
+
+<div id="jobsearch">
+<section class="search">
+    <h2 class="p-1">Find Your Dream Job</h2>
+    <form action=" " method="get">
+    <input type="text" name="keywords" placeholder="Keywords">
+    <input type="text" name="location" placeholder="Location">
+    <input type="text" name="company" placeholder="Company">
+    <button type="submit">Search</button>
+    </form>
+</section>
+</div>
+
+<section class="job-listings">
+    <div id="companies">
+    <h2 class="fst-italic p-1">Latest Job Listings</h2>
+    <ul>
+        <li class="bg-warning text-white">
+        <p class="fs-2 text-danger fw-bold fst-italic">Company:Wipro WILP</p>
+        <p>Location: Bangalore</p>
+        <p>Role:Web Developer</p>
+        <p>Eligibility:BTECH,BCA,MCA</p>
+        <p>Skills: Java,SQL,Python</p>
+        <a href="E:\CSS WORKSPACE\08-assignment2\ass2.html">APPLY NOW</a>
+        </li>
+        <li class="bg-primary text-white">
+        <p class="fs-2 text-danger fw-bold fst-italic">Company:CGI </p>
+        <p>Location:PAN INDIA</p>
+        <p>Eligibility:BTECH,BCA,MCA</p>
+        <p>Skills:Java</p>
+        <p>Role: Java Developer</p>
+        <a href="E:\CSS WORKSPACE\08-assignment2\ass2.html">APPLY NOW</a>
+        </li>
+        <li class="bg-success text-white">
+        <p class="fs-2 text-danger fw-bold fst-italic">Company:Infosys </p>
+        <p>Location: India</p>
+        <p>Role: Python Developer</p>
+        <p>Eligibility:BTECH,MCA</p>
+        <p>Skills:Python</p>
+        <a href="E:\CSS WORKSPACE\08-assignment2\ass2.html">APPLY NOW</a>
+        </li>
+        <li class="bg-warning text-white">
+        <p class="fs-2 text-success fw-bold fst-italic">Company:IBM </p>
+        <p>Location:Bangalore</p>
+        <p>Role: Software Developer</p>
+        <p>Eligibility:BTECH,BCA,MCA</p>
+        <p>Skills: Java,SQL,Python,C++,C</p>
+        <a href="E:\CSS WORKSPACE\08-assignment2\ass2.html">APPLY NOW</a>
+        </li>
+    </ul>
+</div>
+</section>
+<div id="Contact">
+ <footer>
+    <p>© 2023 Job Search Portal</p>
+    <h5>Reach us for more information</h5>
+    <p>contact us: 8431634879<br>
+       Email us: pragudv254@gmail.us</p>
+    <h5>for more notifications please subscribe to our page</h5>
+    <button type="subscribe" class="btn btn-primary fst-italic">CLICK HERE TO SUBSCRIBE</button>
+</footer></div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

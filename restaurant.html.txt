@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head><title>RESTAURANT WEBSITE PROJECT</title>
+    </head>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <body>
+    
+<div class="container">
+    
+<header>
+    
+    <nav class="menus">
+        <a href="#home">Home</a>
+        <a href="#MENU">MENU</a>
+        <a href="#order">ORDERS</a>
+        <a href="#ABOUT">ABOUT</a>
+        <a href="#CONTACT US">Contact Us</a>
+    </nav>
+
+
+<div class="overlay fw-bolder fst-italic">
+<section id="home">
+    <h1><marquee><SPAN STYLE="COLOR:RED;">WELCOME</SPAN>
+     <span style="color: blue; ">TO</span>  
+     <span style="color:green;">SRI</span>
+     <span style="color: indigo;">KRISHNA</span>  
+     <span style="color: rgb(255, 0, 111); ">HOTEL</span>  
+</marquee></h1>
+ 
+</section>
+</div>
+</header>
+
+   
+
+        <div id="MENU">
+            <div class="heading">
+                <h1 class="bg-primary">Menu</h1>
+                <h3 class="text-success  fst-italic fw-bolder">SUNDAYS  SPECIAL</h3>
+            </div>
+            </div>
+            <div class="card ">
+                <img src="https://th.bing.com/th/id/R.3510a1916edb978335e48112917bd977?rik=I27erSYUdhPTcA&riu=http%3a%2f%2forig02.deviantart.net%2ff885%2ff%2f2015%2f323%2fc%2f2%2fhyderabadi_biryani_basmati_rice_by_nehasharma847145-d9h6uxl.jpg&ehk=fYQrugqm31DeCKQdMcKGQgXVP1C73daZD8uozyVvWsY%3d&risl=&pid=ImgRaw&r=0">
+                <div class="details">
+                    <div class="details-sub  text-center">
+                        <h5>HYDERABAD BIRYANI</h5>
+                        <h5 class="price">RS 200 </h5>
+                        
+                    </div>
+                    <button >Add To Cart</button>
+                </div>
+            </div>
+    
+            <div class="card">
+                <img src="https://th.bing.com/th/id/OIP.zGiiTeiIYOjJHS4xYxMADwHaLH?rs=1&pid=ImgDetMain" alt="IMG NOT FOUND">
+                <div class="details">
+                    <div class="details-sub  text-center">
+                        <h5>CARROT BIRYANI</h5>
+                        <h5 class="price">RS 190</h5>
+                    </div>
+                    
+                    <button>Add To Cart</button>
+                </div>
+            </div>
+    
+            <div class="card">
+                <img src="https://currydelight.co.nz/wp-content/uploads/veg-briyani.png" alt="IMG NOT FOUND">
+                <div class="details">
+                    <div class="details-sub text-center">
+                        <h5>VEGATARIAN BIRYANI</h5>
+                        <h5 class="price">RS 170 </h5>
+                    </div>
+                    
+                    <button>Add To Cart</button>
+                </div>
+            </div>
+    
+            <div class="card">
+                <img src="https://th.bing.com/th/id/OIP.zQbEmNFn-geF7IPMvRknWQHaGO?rs=1&pid=ImgDetMain" alt="IMG NOT FOUND">
+                <div class="details">
+                    <div class="details-sub text-center">
+                        <h5>HYDERBADI MUTTON BIRYANI</h5>
+                        <h5 class="price">RS 250</h5>
+                    </div>
+                   
+                    <button>Add To Cart</button>
+                </div>
+            </div>
+    
+            <div class="card">
+                <img src="https://vismaifood.com/storage/app/uploads/public/914/f47/fa9/thumb__1200_0_0_0_auto.jpg" alt="IMG NOT FOUND">
+                <div class="details">
+                    <div class="details-sub text-center">
+                        <h5>CHICKEN BIRYANI WITH BOILED
+                            EGG</h5>
+                        <h5 class="price">RS 300</h5>
+                    </div>
+                  
+                    <button>Add To Cart</button>
+                </div>
+            </div>
+    
+            <div class="card">
+                <img src="https://media.blogto.com/listings/20180913-Bawarchi9.jpg?width=1300&quality=70" alt="IMG NOT FOUND">
+                <div class="details">
+                    <div class="details-sub text-center">
+                        <h5>BAWACHI BIRYANI</h5>
+                        <h5 class="price">RS 250</h5>
+                    </div>
+                    
+                    <button>Add To Cart</button>
+                </div>
+            </div>
+        </div>
+
+
+<div id="ABOUT">
+    <h1 class="title bg-primary text-warning fst-italic fw-bold">About us</h1>
+    <div class="about_row">
+        <div class="about_column">
+    <p class="bg-primary text-white">SRI KRISHNA RESTAURANT FROM 5 YEARS WE HAD STARTED OUR JOURNEY,WE GAVE OUR BEST TO SATISFY OUR CUSTOMERS</p>
+</div>
+<div class="about_column">
+    <img src="https://img.freepik.com/free-photo/chef-making-ok-sign-white-background_1368-2804.jpg?w=2000" alt="img not found">
+</div>
+</div>
+</div>
+<div id="order">
+    <h1 class="title1 bg-primary text-danger fst-italic fw-bolder">order</h1>
+    <form action="">
+      <input type="text" class="inp_box" placeholder="Name">
+      <input type="email" class="inp_box" placeholder="Email">
+      <textarea type="text" class="inp_box text_area" placeholder="Adress"></textarea>
+<button class="btn2">Order Now</button>
+    </div>
+    </form>
+   
+</div>
+<footer>
+    <div id="CONTACT US">
+        <h4><u>REACH US</u></h4>
+    <p>contact us:9902243533<br>
+       home delivery available<br>
+       timmings:10:00am - 21:00pm<br>
+    </p></div>
+</footer>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>    
+
+</body>
+</html>
